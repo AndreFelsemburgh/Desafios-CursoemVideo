@@ -37,8 +37,8 @@ li {
     border: 2px solid #f0a30a;
     border-radius: 10px;
     margin-bottom: 2px;
-    width: 350px;
     font-size: 1em;
+    width: 100%;
     display: inline-block;
 }
 
