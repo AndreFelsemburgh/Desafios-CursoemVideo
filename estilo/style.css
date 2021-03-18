@@ -1,3 +1,15 @@
+/*  Font Dosis */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Redressed&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #BAF2DE; }
+.My-Color-Theme-2-hex { color: #6AA392; }
+.My-Color-Theme-3-hex { color: #FEDC7B; }
+.My-Color-Theme-4-hex { color: #F79A71; }
+.My-Color-Theme-5-hex { color: #DF614A; }
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,19 +23,17 @@ body {
     height: 100%;
 }
 
-main {
-    width: 800px;
-    margin: auto;
-    background-color: #ffffff;
-}
 
 h1 {
-    background-color: #023E73;
+    font-family: 'Dosis';
+    background-color: #6AA392;
     color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+    padding: 10px 5px;
+    border-radius: 5px;
     margin-bottom: 20px;
+    width:100%;
+    text-align: center;
+
 }
 
 p {
@@ -42,7 +52,6 @@ li {
     margin-bottom: 2px;
     font-size: 1em;
     width: 350px;
-    display: inline-block;
 }
 
 li a {
