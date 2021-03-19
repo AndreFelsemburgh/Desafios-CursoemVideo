@@ -18,7 +18,7 @@
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient (to bottom, #0583f2, #023e73);
+    font-size: 1em;
     color: #000000;
     height: 100%;
 }
@@ -28,21 +28,21 @@ h1 {
     font-family: 'Dosis';
     background-color: #6AA392;
     color: #ffffff;
-    padding: 10px 5px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    padding: 0.625em 0.3125em;
+    margin-bottom: 1.25em;
     width:100%;
     text-align: center;
-
 }
 
 p {
     text-indent: 15px;
+    padding: 5px;
 }
 
 ul {
     display: block;
     margin-top: 30px;
+    padding: 5px;
 }
 
 li {
@@ -51,7 +51,7 @@ li {
     border-radius: 10px;
     margin-bottom: 2px;
     font-size: 1em;
-    width: 350px;
+    width: 100%;
 }
 
 li a {
